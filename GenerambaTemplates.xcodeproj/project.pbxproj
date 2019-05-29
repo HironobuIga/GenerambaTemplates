@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16BBCD5225FA83D10DF110EE /* Pods_GenerambaTemplatesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C94880AD5F3AEA4B543AFD1 /* Pods_GenerambaTemplatesTests.framework */; };
+		1E5EF9A7229E5EA50076113B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5EF9A6229E5EA50076113B /* AppDelegate.swift */; };
+		1E5EF9A9229E5EA50076113B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5EF9A8229E5EA50076113B /* ViewController.swift */; };
+		1E5EF9AC229E5EA50076113B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E5EF9AA229E5EA50076113B /* Main.storyboard */; };
+		1E5EF9AE229E5EA70076113B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E5EF9AD229E5EA70076113B /* Assets.xcassets */; };
+		1E5EF9B1229E5EA70076113B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E5EF9AF229E5EA70076113B /* LaunchScreen.storyboard */; };
+		1E5EF9BC229E5EA70076113B /* GenerambaTemplatesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5EF9BB229E5EA70076113B /* GenerambaTemplatesTests.swift */; };
+		39FC55CA8EAD0EF8A472B989 /* Pods_GenerambaTemplates.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 960D0E89EDDAE63D5EF90EF4 /* Pods_GenerambaTemplates.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E5EF9B8229E5EA70076113B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E5EF99B229E5EA40076113B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E5EF9A2229E5EA50076113B;
+			remoteInfo = GenerambaTemplates;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E5EF9A3229E5EA50076113B /* GenerambaTemplates.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GenerambaTemplates.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E5EF9A6229E5EA50076113B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1E5EF9A8229E5EA50076113B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1E5EF9AB229E5EA50076113B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1E5EF9AD229E5EA70076113B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E5EF9B0229E5EA70076113B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1E5EF9B2229E5EA70076113B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E5EF9B7229E5EA70076113B /* GenerambaTemplatesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GenerambaTemplatesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E5EF9BB229E5EA70076113B /* GenerambaTemplatesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerambaTemplatesTests.swift; sourceTree = "<group>"; };
+		1E5EF9BD229E5EA70076113B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F47C328C94CA61DED8CB438 /* Pods-GenerambaTemplatesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenerambaTemplatesTests.debug.xcconfig"; path = "Target Support Files/Pods-GenerambaTemplatesTests/Pods-GenerambaTemplatesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		35CCD7B76E25B754D966A59A /* Pods-GenerambaTemplatesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenerambaTemplatesTests.release.xcconfig"; path = "Target Support Files/Pods-GenerambaTemplatesTests/Pods-GenerambaTemplatesTests.release.xcconfig"; sourceTree = "<group>"; };
+		50916B6721A78AC46B240640 /* Pods-GenerambaTemplates.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenerambaTemplates.debug.xcconfig"; path = "Target Support Files/Pods-GenerambaTemplates/Pods-GenerambaTemplates.debug.xcconfig"; sourceTree = "<group>"; };
+		8D0274EBF0AFD485E79D20BA /* Pods-GenerambaTemplates.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenerambaTemplates.release.xcconfig"; path = "Target Support Files/Pods-GenerambaTemplates/Pods-GenerambaTemplates.release.xcconfig"; sourceTree = "<group>"; };
+		960D0E89EDDAE63D5EF90EF4 /* Pods_GenerambaTemplates.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GenerambaTemplates.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C94880AD5F3AEA4B543AFD1 /* Pods_GenerambaTemplatesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GenerambaTemplatesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E5EF9A0229E5EA50076113B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39FC55CA8EAD0EF8A472B989 /* Pods_GenerambaTemplates.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E5EF9B4229E5EA70076113B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16BBCD5225FA83D10DF110EE /* Pods_GenerambaTemplatesTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E5EF99A229E5EA40076113B = {
+			isa = PBXGroup;
+			children = (
+				1E5EF9A5229E5EA50076113B /* GenerambaTemplates */,
+				1E5EF9BA229E5EA70076113B /* GenerambaTemplatesTests */,
+				1E5EF9A4229E5EA50076113B /* Products */,
+				B852C51B5499B7E0D06BC862 /* Pods */,
+				A7A3DA8EC2583EC8F96EE4EB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1E5EF9A4229E5EA50076113B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E5EF9A3229E5EA50076113B /* GenerambaTemplates.app */,
+				1E5EF9B7229E5EA70076113B /* GenerambaTemplatesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E5EF9A5229E5EA50076113B /* GenerambaTemplates */ = {
+			isa = PBXGroup;
+			children = (
+				1E5EF9A6229E5EA50076113B /* AppDelegate.swift */,
+				1E5EF9A8229E5EA50076113B /* ViewController.swift */,
+				1E5EF9AA229E5EA50076113B /* Main.storyboard */,
+				1E5EF9AD229E5EA70076113B /* Assets.xcassets */,
+				1E5EF9AF229E5EA70076113B /* LaunchScreen.storyboard */,
+				1E5EF9B2229E5EA70076113B /* Info.plist */,
+			);
+			path = GenerambaTemplates;
+			sourceTree = "<group>";
+		};
+		1E5EF9BA229E5EA70076113B /* GenerambaTemplatesTests */ = {
+			isa = PBXGroup;
+			children = (
+				1E5EF9BB229E5EA70076113B /* GenerambaTemplatesTests.swift */,
+				1E5EF9BD229E5EA70076113B /* Info.plist */,
+			);
+			path = GenerambaTemplatesTests;
+			sourceTree = "<group>";
+		};
+		A7A3DA8EC2583EC8F96EE4EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				960D0E89EDDAE63D5EF90EF4 /* Pods_GenerambaTemplates.framework */,
+				9C94880AD5F3AEA4B543AFD1 /* Pods_GenerambaTemplatesTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B852C51B5499B7E0D06BC862 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				50916B6721A78AC46B240640 /* Pods-GenerambaTemplates.debug.xcconfig */,
+				8D0274EBF0AFD485E79D20BA /* Pods-GenerambaTemplates.release.xcconfig */,
+				2F47C328C94CA61DED8CB438 /* Pods-GenerambaTemplatesTests.debug.xcconfig */,
+				35CCD7B76E25B754D966A59A /* Pods-GenerambaTemplatesTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E5EF9A2229E5EA50076113B /* GenerambaTemplates */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E5EF9C0229E5EA70076113B /* Build configuration list for PBXNativeTarget "GenerambaTemplates" */;
+			buildPhases = (
+				3BCA7C47F43B6D7126D18DFD /* [CP] Check Pods Manifest.lock */,
+				1E5EF99F229E5EA50076113B /* Sources */,
+				1E5EF9A0229E5EA50076113B /* Frameworks */,
+				1E5EF9A1229E5EA50076113B /* Resources */,
+				1ED0F57FF4F2DA02932532D0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GenerambaTemplates;
+			productName = GenerambaTemplates;
+			productReference = 1E5EF9A3229E5EA50076113B /* GenerambaTemplates.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1E5EF9B6229E5EA70076113B /* GenerambaTemplatesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E5EF9C3229E5EA70076113B /* Build configuration list for PBXNativeTarget "GenerambaTemplatesTests" */;
+			buildPhases = (
+				E9B2FE3665B421A42DA1B9C2 /* [CP] Check Pods Manifest.lock */,
+				1E5EF9B3229E5EA70076113B /* Sources */,
+				1E5EF9B4229E5EA70076113B /* Frameworks */,
+				1E5EF9B5229E5EA70076113B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E5EF9B9229E5EA70076113B /* PBXTargetDependency */,
+			);
+			name = GenerambaTemplatesTests;
+			productName = GenerambaTemplatesTests;
+			productReference = 1E5EF9B7229E5EA70076113B /* GenerambaTemplatesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E5EF99B229E5EA40076113B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = iganin;
+				TargetAttributes = {
+					1E5EF9A2229E5EA50076113B = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					1E5EF9B6229E5EA70076113B = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 1E5EF9A2229E5EA50076113B;
+					};
+				};
+			};
+			buildConfigurationList = 1E5EF99E229E5EA40076113B /* Build configuration list for PBXProject "GenerambaTemplates" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E5EF99A229E5EA40076113B;
+			productRefGroup = 1E5EF9A4229E5EA50076113B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E5EF9A2229E5EA50076113B /* GenerambaTemplates */,
+				1E5EF9B6229E5EA70076113B /* GenerambaTemplatesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E5EF9A1229E5EA50076113B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E5EF9B1229E5EA70076113B /* LaunchScreen.storyboard in Resources */,
+				1E5EF9AE229E5EA70076113B /* Assets.xcassets in Resources */,
+				1E5EF9AC229E5EA50076113B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E5EF9B5229E5EA70076113B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1ED0F57FF4F2DA02932532D0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GenerambaTemplates/Pods-GenerambaTemplates-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GenerambaTemplates/Pods-GenerambaTemplates-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GenerambaTemplates/Pods-GenerambaTemplates-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3BCA7C47F43B6D7126D18DFD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GenerambaTemplates-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9B2FE3665B421A42DA1B9C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GenerambaTemplatesTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E5EF99F229E5EA50076113B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E5EF9A9229E5EA50076113B /* ViewController.swift in Sources */,
+				1E5EF9A7229E5EA50076113B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E5EF9B3229E5EA70076113B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E5EF9BC229E5EA70076113B /* GenerambaTemplatesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1E5EF9B9229E5EA70076113B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E5EF9A2229E5EA50076113B /* GenerambaTemplates */;
+			targetProxy = 1E5EF9B8229E5EA70076113B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1E5EF9AA229E5EA50076113B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E5EF9AB229E5EA50076113B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1E5EF9AF229E5EA70076113B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E5EF9B0229E5EA70076113B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1E5EF9BE229E5EA70076113B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1E5EF9BF229E5EA70076113B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E5EF9C1229E5EA70076113B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50916B6721A78AC46B240640 /* Pods-GenerambaTemplates.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y827F3LXSQ;
+				INFOPLIST_FILE = GenerambaTemplates/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iganin.GenerambaTemplates;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1E5EF9C2229E5EA70076113B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D0274EBF0AFD485E79D20BA /* Pods-GenerambaTemplates.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y827F3LXSQ;
+				INFOPLIST_FILE = GenerambaTemplates/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iganin.GenerambaTemplates;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1E5EF9C4229E5EA70076113B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F47C328C94CA61DED8CB438 /* Pods-GenerambaTemplatesTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y827F3LXSQ;
+				INFOPLIST_FILE = GenerambaTemplatesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iganin.GenerambaTemplatesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GenerambaTemplates.app/GenerambaTemplates";
+			};
+			name = Debug;
+		};
+		1E5EF9C5229E5EA70076113B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35CCD7B76E25B754D966A59A /* Pods-GenerambaTemplatesTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y827F3LXSQ;
+				INFOPLIST_FILE = GenerambaTemplatesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.iganin.GenerambaTemplatesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GenerambaTemplates.app/GenerambaTemplates";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E5EF99E229E5EA40076113B /* Build configuration list for PBXProject "GenerambaTemplates" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E5EF9BE229E5EA70076113B /* Debug */,
+				1E5EF9BF229E5EA70076113B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E5EF9C0229E5EA70076113B /* Build configuration list for PBXNativeTarget "GenerambaTemplates" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E5EF9C1229E5EA70076113B /* Debug */,
+				1E5EF9C2229E5EA70076113B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E5EF9C3229E5EA70076113B /* Build configuration list for PBXNativeTarget "GenerambaTemplatesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E5EF9C4229E5EA70076113B /* Debug */,
+				1E5EF9C5229E5EA70076113B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1E5EF99B229E5EA40076113B /* Project object */;
+}
