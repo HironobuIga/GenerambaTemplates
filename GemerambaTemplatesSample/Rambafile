@@ -30,5 +30,7 @@ podfile_path: Podfile
 cartfile_path: Cartfile
 
 ### Templates
+catalogs:
+- 'https://github.com/HironobuIga/GenerambaTemplates'
 templates:
-- {name: mvvm, local: 'mvvm/'}
+- { name: mvvm }

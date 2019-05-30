@@ -4,44 +4,6 @@
    <FileRef
       location = "group:GenerambaTemplates.xcodeproj">
    </FileRef>
-   <Group
-      location = "group:Templates"
-      name = "Templates">
-      <Group
-         location = "group:mvvm"
-         name = "mvvm">
-         <FileRef
-            location = "group:mvvm.rambaspec">
-         </FileRef>
-         <Group
-            location = "group:Tests"
-            name = "Tests">
-            <FileRef
-               location = "group:viewmodel_test.swift.liquid">
-            </FileRef>
-         </Group>
-         <Group
-            location = "group:Code"
-            name = "Code">
-            <FileRef
-               location = "group:viewmodel.swift.liquid">
-            </FileRef>
-            <Group
-               location = "group:View"
-               name = "View">
-               <FileRef
-                  location = "group:viewcontroller.storyboard.liquid">
-               </FileRef>
-               <FileRef
-                  location = "group:viewcontroller.swift.liquid">
-               </FileRef>
-            </Group>
-            <FileRef
-               location = "group:wireframe.swift.liquid">
-            </FileRef>
-         </Group>
-      </Group>
-   </Group>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
    </FileRef>
