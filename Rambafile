@@ -31,4 +31,4 @@ cartfile_path: Cartfile
 
 ### Templates
 templates:
-- {name: mvvm, local: 'Templates/mvvm'}
+- {name: mvvm, local: 'mvvm/'}
