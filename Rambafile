@@ -1,0 +1,34 @@
+### Headers settings
+company: iganin
+
+### Xcode project settings
+project_name: GenerambaTemplates
+xcodeproj_path: GenerambaTemplates.xcodeproj
+
+### Code generation settings section
+# The main project target name
+project_target: GenerambaTemplates
+
+# The file path for new modules
+project_file_path: GenerambaTemplates/Modules
+
+# The Xcode group path to new modules
+project_group_path: GenerambaTemplates/Modules
+
+### Tests generation settings section
+# The tests target name
+test_target: GenerambaTemplatesTests
+
+# The file path for new tests
+test_file_path: GenerambaTemplatesTests/Modules
+
+# The Xcode group path to new tests
+test_group_path: GenerambaTemplatesTests/Modules
+
+### Dependencies settings section
+podfile_path: Podfile
+cartfile_path: Cartfile
+
+### Templates
+templates:
+- {name: mvvm, local: 'Templates/mvvm'}

@@ -41,6 +41,8 @@
 		1E5EF9BD229E5EA70076113B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1E5EF9DF229FCDB20076113B /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
 		1E5EF9E2229FD5A30076113B /* CarthageInputFiles.xcfilelist */ = {isa = PBXFileReference; lastKnownFileType = text.xcfilelist; path = CarthageInputFiles.xcfilelist; sourceTree = "<group>"; };
+		1E5EF9E3229FD8510076113B /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = SOURCE_ROOT; };
+		1E5EF9E5229FD85F0076113B /* Rambafile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Rambafile; sourceTree = SOURCE_ROOT; };
 		2F47C328C94CA61DED8CB438 /* Pods-GenerambaTemplatesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenerambaTemplatesTests.debug.xcconfig"; path = "Target Support Files/Pods-GenerambaTemplatesTests/Pods-GenerambaTemplatesTests.debug.xcconfig"; sourceTree = "<group>"; };
 		35CCD7B76E25B754D966A59A /* Pods-GenerambaTemplatesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenerambaTemplatesTests.release.xcconfig"; path = "Target Support Files/Pods-GenerambaTemplatesTests/Pods-GenerambaTemplatesTests.release.xcconfig"; sourceTree = "<group>"; };
 		50916B6721A78AC46B240640 /* Pods-GenerambaTemplates.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenerambaTemplates.debug.xcconfig"; path = "Target Support Files/Pods-GenerambaTemplates/Pods-GenerambaTemplates.debug.xcconfig"; sourceTree = "<group>"; };
@@ -92,10 +94,12 @@
 		1E5EF9A5229E5EA50076113B /* GenerambaTemplates */ = {
 			isa = PBXGroup;
 			children = (
+				1E5EF9E3229FD8510076113B /* Cartfile */,
+				1E5EF9E5229FD85F0076113B /* Rambafile */,
 				1E5EF9A6229E5EA50076113B /* AppDelegate.swift */,
 				1E5EF9DC229FCCAA0076113B /* Services */,
 				1E5EF9DD229FCCB70076113B /* Extensions */,
-				1E5EF9DA229FCC6C0076113B /* Screens */,
+				1E5EF9DA229FCC6C0076113B /* Modules */,
 				1E5EF9D8229FCBDC0076113B /* Supports */,
 				1E5EF9D9229FCC430076113B /* Resources */,
 			);
@@ -130,13 +134,13 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		1E5EF9DA229FCC6C0076113B /* Screens */ = {
+		1E5EF9DA229FCC6C0076113B /* Modules */ = {
 			isa = PBXGroup;
 			children = (
 				1E5EF9A8229E5EA50076113B /* ViewController.swift */,
 				1E5EF9AA229E5EA50076113B /* Main.storyboard */,
 			);
-			path = Screens;
+			path = Modules;
 			sourceTree = "<group>";
 		};
 		1E5EF9DC229FCCAA0076113B /* Services */ = {
