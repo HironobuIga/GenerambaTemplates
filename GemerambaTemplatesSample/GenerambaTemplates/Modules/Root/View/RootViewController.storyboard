@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="HBF-Yz-kHF">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Root View Controller-->
+        <scene sceneID="ulG-GP-FcH">
+            <objects>
+                <viewController id="HBF-Yz-kHF" customClass="RootViewController" customModule="GenerambaTemplates" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="CZ3-uY-SHJ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bFl-Er-OlX">
+                                <rect key="frame" x="176.5" y="388.5" width="61" height="119.5"/>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="100"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="vUw-2J-t4j">
+                                <rect key="frame" x="44" y="588" width="326" height="44"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="76c-HD-svp">
+                                        <rect key="frame" x="0.0" y="0.0" width="108.5" height="44"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <state key="normal" title="- 1"/>
+                                    </button>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3kl-5p-7mR">
+                                        <rect key="frame" x="108.5" y="0.0" width="109" height="44"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xpp-1J-oHq">
+                                        <rect key="frame" x="217.5" y="0.0" width="108.5" height="44"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <state key="normal" title="+ 1"/>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="xwX-bW-7Eq"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="j3I-I3-vZf" firstAttribute="trailing" secondItem="vUw-2J-t4j" secondAttribute="trailing" constant="44" id="5MO-cY-sUQ"/>
+                            <constraint firstItem="bFl-Er-OlX" firstAttribute="centerY" secondItem="CZ3-uY-SHJ" secondAttribute="centerY" id="KUT-hb-Pjf"/>
+                            <constraint firstItem="vUw-2J-t4j" firstAttribute="leading" secondItem="j3I-I3-vZf" secondAttribute="leading" constant="44" id="fHh-GM-gIp"/>
+                            <constraint firstItem="vUw-2J-t4j" firstAttribute="top" secondItem="bFl-Er-OlX" secondAttribute="bottom" constant="80" id="sOS-Au-5Qm"/>
+                            <constraint firstItem="bFl-Er-OlX" firstAttribute="centerX" secondItem="CZ3-uY-SHJ" secondAttribute="centerX" id="vam-iG-YuR"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="j3I-I3-vZf"/>
+                    </view>
+                    <connections>
+                        <outlet property="minusButton" destination="76c-HD-svp" id="n0L-4u-jYk"/>
+                        <outlet property="numberLabel" destination="bFl-Er-OlX" id="se2-98-gMM"/>
+                        <outlet property="plusButton" destination="xpp-1J-oHq" id="XQh-Lm-OSI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Tf3-Qr-9tl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-81.159420289855078" y="98.4375"/>
+        </scene>
+    </scenes>
+</document>

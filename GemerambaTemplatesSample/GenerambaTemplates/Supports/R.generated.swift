@@ -20,17 +20,17 @@ struct R: Rswift.Validatable {
   struct storyboard {
     /// Storyboard `LaunchScreen`.
     static let launchScreen = _R.storyboard.launchScreen()
-    /// Storyboard `Main`.
-    static let main = _R.storyboard.main()
+    /// Storyboard `RootViewController`.
+    static let rootViewController = _R.storyboard.rootViewController()
     
     /// `UIStoryboard(name: "LaunchScreen", bundle: ...)`
     static func launchScreen(_: Void = ()) -> UIKit.UIStoryboard {
       return UIKit.UIStoryboard(resource: R.storyboard.launchScreen)
     }
     
-    /// `UIStoryboard(name: "Main", bundle: ...)`
-    static func main(_: Void = ()) -> UIKit.UIStoryboard {
-      return UIKit.UIStoryboard(resource: R.storyboard.main)
+    /// `UIStoryboard(name: "RootViewController", bundle: ...)`
+    static func rootViewController(_: Void = ()) -> UIKit.UIStoryboard {
+      return UIKit.UIStoryboard(resource: R.storyboard.rootViewController)
     }
     
     fileprivate init() {}
@@ -57,7 +57,7 @@ struct _R: Rswift.Validatable {
   struct storyboard: Rswift.Validatable {
     static func validate() throws {
       try launchScreen.validate()
-      try main.validate()
+      try rootViewController.validate()
     }
     
     struct launchScreen: Rswift.StoryboardResourceWithInitialControllerType, Rswift.Validatable {
@@ -74,11 +74,11 @@ struct _R: Rswift.Validatable {
       fileprivate init() {}
     }
     
-    struct main: Rswift.StoryboardResourceWithInitialControllerType, Rswift.Validatable {
-      typealias InitialController = ViewController
+    struct rootViewController: Rswift.StoryboardResourceWithInitialControllerType, Rswift.Validatable {
+      typealias InitialController = RootViewController
       
       let bundle = R.hostingBundle
-      let name = "Main"
+      let name = "RootViewController"
       
       static func validate() throws {
         if #available(iOS 11.0, *) {

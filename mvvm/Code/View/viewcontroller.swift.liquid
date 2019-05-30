@@ -20,7 +20,7 @@ final class {{ module_info.name }}ViewController: UIViewController {
     private let disposeBag = DisposeBag()
 
     // MARK: - Life cycle
-    static func insntantiate(viewModel: {{ module_info.name }}ViewModelType? = nil) -> SampleViewController {
+    static func insntantiate(viewModel: {{ module_info.name }}ViewModelType? = nil) -> {{ module_info.name }}ViewController {
         let viewController = R.storyboard.{{ module_info.name }}ViewController.instantiateInitialViewController()!
         let wireframe = Default{{ module_info.name }}Wireframe(on: viewController)
         let viewModel = viewModel ?? {{ module_info.name }}ViewModel(dependency: wireframe)

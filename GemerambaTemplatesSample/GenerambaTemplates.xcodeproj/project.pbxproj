@@ -9,12 +9,18 @@
 /* Begin PBXBuildFile section */
 		16BBCD5225FA83D10DF110EE /* Pods_GenerambaTemplatesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C94880AD5F3AEA4B543AFD1 /* Pods_GenerambaTemplatesTests.framework */; };
 		1E5EF9A7229E5EA50076113B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5EF9A6229E5EA50076113B /* AppDelegate.swift */; };
-		1E5EF9A9229E5EA50076113B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5EF9A8229E5EA50076113B /* ViewController.swift */; };
-		1E5EF9AC229E5EA50076113B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E5EF9AA229E5EA50076113B /* Main.storyboard */; };
 		1E5EF9AE229E5EA70076113B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E5EF9AD229E5EA70076113B /* Assets.xcassets */; };
 		1E5EF9B1229E5EA70076113B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E5EF9AF229E5EA70076113B /* LaunchScreen.storyboard */; };
 		1E5EF9BC229E5EA70076113B /* GenerambaTemplatesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5EF9BB229E5EA70076113B /* GenerambaTemplatesTests.swift */; };
 		1E5EF9E0229FCDB20076113B /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5EF9DF229FCDB20076113B /* R.generated.swift */; };
+		1E5EF9EC229FEBD90076113B /* RootWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5EF9E7229FEBD70076113B /* RootWireframe.swift */; };
+		1E5EF9ED229FEBD90076113B /* RootViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5EF9E8229FEBD70076113B /* RootViewModel.swift */; };
+		1E5EF9EE229FEBD90076113B /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5EF9EA229FEBD70076113B /* RootViewController.swift */; };
+		1E5EF9EF229FEBD90076113B /* RootViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E5EF9EB229FEBD70076113B /* RootViewController.storyboard */; };
+		1E5EF9F4229FEC4C0076113B /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E5EF9F0229FEC4B0076113B /* Alamofire.framework */; };
+		1E5EF9F5229FEC4C0076113B /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E5EF9F1229FEC4B0076113B /* RxSwift.framework */; };
+		1E5EF9F6229FEC4C0076113B /* RxRelay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E5EF9F2229FEC4B0076113B /* RxRelay.framework */; };
+		1E5EF9F7229FEC4C0076113B /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E5EF9F3229FEC4B0076113B /* RxCocoa.framework */; };
 		39FC55CA8EAD0EF8A472B989 /* Pods_GenerambaTemplates.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 960D0E89EDDAE63D5EF90EF4 /* Pods_GenerambaTemplates.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,8 +37,6 @@
 /* Begin PBXFileReference section */
 		1E5EF9A3229E5EA50076113B /* GenerambaTemplates.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GenerambaTemplates.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E5EF9A6229E5EA50076113B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1E5EF9A8229E5EA50076113B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1E5EF9AB229E5EA50076113B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1E5EF9AD229E5EA70076113B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E5EF9B0229E5EA70076113B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E5EF9B2229E5EA70076113B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,6 +47,14 @@
 		1E5EF9E2229FD5A30076113B /* CarthageInputFiles.xcfilelist */ = {isa = PBXFileReference; lastKnownFileType = text.xcfilelist; path = CarthageInputFiles.xcfilelist; sourceTree = "<group>"; };
 		1E5EF9E3229FD8510076113B /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = SOURCE_ROOT; };
 		1E5EF9E5229FD85F0076113B /* Rambafile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Rambafile; sourceTree = SOURCE_ROOT; };
+		1E5EF9E7229FEBD70076113B /* RootWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootWireframe.swift; sourceTree = "<group>"; };
+		1E5EF9E8229FEBD70076113B /* RootViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewModel.swift; sourceTree = "<group>"; };
+		1E5EF9EA229FEBD70076113B /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		1E5EF9EB229FEBD70076113B /* RootViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = RootViewController.storyboard; sourceTree = "<group>"; };
+		1E5EF9F0229FEC4B0076113B /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		1E5EF9F1229FEC4B0076113B /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		1E5EF9F2229FEC4B0076113B /* RxRelay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxRelay.framework; path = Carthage/Build/iOS/RxRelay.framework; sourceTree = "<group>"; };
+		1E5EF9F3229FEC4B0076113B /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
 		2F47C328C94CA61DED8CB438 /* Pods-GenerambaTemplatesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenerambaTemplatesTests.debug.xcconfig"; path = "Target Support Files/Pods-GenerambaTemplatesTests/Pods-GenerambaTemplatesTests.debug.xcconfig"; sourceTree = "<group>"; };
 		35CCD7B76E25B754D966A59A /* Pods-GenerambaTemplatesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenerambaTemplatesTests.release.xcconfig"; path = "Target Support Files/Pods-GenerambaTemplatesTests/Pods-GenerambaTemplatesTests.release.xcconfig"; sourceTree = "<group>"; };
 		50916B6721A78AC46B240640 /* Pods-GenerambaTemplates.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenerambaTemplates.debug.xcconfig"; path = "Target Support Files/Pods-GenerambaTemplates/Pods-GenerambaTemplates.debug.xcconfig"; sourceTree = "<group>"; };
@@ -56,6 +68,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E5EF9F4229FEC4C0076113B /* Alamofire.framework in Frameworks */,
+				1E5EF9F5229FEC4C0076113B /* RxSwift.framework in Frameworks */,
+				1E5EF9F6229FEC4C0076113B /* RxRelay.framework in Frameworks */,
+				1E5EF9F7229FEC4C0076113B /* RxCocoa.framework in Frameworks */,
 				39FC55CA8EAD0EF8A472B989 /* Pods_GenerambaTemplates.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +153,7 @@
 		1E5EF9DA229FCC6C0076113B /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				1E5EF9A8229E5EA50076113B /* ViewController.swift */,
-				1E5EF9AA229E5EA50076113B /* Main.storyboard */,
+				1E5EF9E6229FEBD70076113B /* Root */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -157,9 +172,32 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		1E5EF9E6229FEBD70076113B /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				1E5EF9E7229FEBD70076113B /* RootWireframe.swift */,
+				1E5EF9E8229FEBD70076113B /* RootViewModel.swift */,
+				1E5EF9E9229FEBD70076113B /* View */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		1E5EF9E9229FEBD70076113B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1E5EF9EA229FEBD70076113B /* RootViewController.swift */,
+				1E5EF9EB229FEBD70076113B /* RootViewController.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		A7A3DA8EC2583EC8F96EE4EB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1E5EF9F0229FEC4B0076113B /* Alamofire.framework */,
+				1E5EF9F3229FEC4B0076113B /* RxCocoa.framework */,
+				1E5EF9F2229FEC4B0076113B /* RxRelay.framework */,
+				1E5EF9F1229FEC4B0076113B /* RxSwift.framework */,
 				960D0E89EDDAE63D5EF90EF4 /* Pods_GenerambaTemplates.framework */,
 				9C94880AD5F3AEA4B543AFD1 /* Pods_GenerambaTemplatesTests.framework */,
 			);
@@ -265,7 +303,7 @@
 			files = (
 				1E5EF9B1229E5EA70076113B /* LaunchScreen.storyboard in Resources */,
 				1E5EF9AE229E5EA70076113B /* Assets.xcassets in Resources */,
-				1E5EF9AC229E5EA50076113B /* Main.storyboard in Resources */,
+				1E5EF9EF229FEBD90076113B /* RootViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,7 +424,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E5EF9A9229E5EA50076113B /* ViewController.swift in Sources */,
+				1E5EF9ED229FEBD90076113B /* RootViewModel.swift in Sources */,
+				1E5EF9EC229FEBD90076113B /* RootWireframe.swift in Sources */,
+				1E5EF9EE229FEBD90076113B /* RootViewController.swift in Sources */,
 				1E5EF9A7229E5EA50076113B /* AppDelegate.swift in Sources */,
 				1E5EF9E0229FCDB20076113B /* R.generated.swift in Sources */,
 			);
@@ -411,14 +451,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1E5EF9AA229E5EA50076113B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1E5EF9AB229E5EA50076113B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1E5EF9AF229E5EA70076113B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -555,6 +587,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y827F3LXSQ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = GenerambaTemplates/Supports/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -574,6 +610,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y827F3LXSQ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = GenerambaTemplates/Supports/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
