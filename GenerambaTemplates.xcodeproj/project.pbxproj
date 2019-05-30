@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -90,11 +90,11 @@
 			isa = PBXGroup;
 			children = (
 				1E5EF9A6229E5EA50076113B /* AppDelegate.swift */,
-				1E5EF9A8229E5EA50076113B /* ViewController.swift */,
-				1E5EF9AA229E5EA50076113B /* Main.storyboard */,
-				1E5EF9AD229E5EA70076113B /* Assets.xcassets */,
-				1E5EF9AF229E5EA70076113B /* LaunchScreen.storyboard */,
-				1E5EF9B2229E5EA70076113B /* Info.plist */,
+				1E5EF9DC229FCCAA0076113B /* Services */,
+				1E5EF9DD229FCCB70076113B /* Extensions */,
+				1E5EF9DA229FCC6C0076113B /* Screens */,
+				1E5EF9D8229FCBDC0076113B /* Supports */,
+				1E5EF9D9229FCC430076113B /* Resources */,
 			);
 			path = GenerambaTemplates;
 			sourceTree = "<group>";
@@ -106,6 +106,46 @@
 				1E5EF9BD229E5EA70076113B /* Info.plist */,
 			);
 			path = GenerambaTemplatesTests;
+			sourceTree = "<group>";
+		};
+		1E5EF9D8229FCBDC0076113B /* Supports */ = {
+			isa = PBXGroup;
+			children = (
+				1E5EF9B2229E5EA70076113B /* Info.plist */,
+			);
+			path = Supports;
+			sourceTree = "<group>";
+		};
+		1E5EF9D9229FCC430076113B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1E5EF9AD229E5EA70076113B /* Assets.xcassets */,
+				1E5EF9AF229E5EA70076113B /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1E5EF9DA229FCC6C0076113B /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				1E5EF9A8229E5EA50076113B /* ViewController.swift */,
+				1E5EF9AA229E5EA50076113B /* Main.storyboard */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		1E5EF9DC229FCCAA0076113B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		1E5EF9DD229FCCB70076113B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		A7A3DA8EC2583EC8F96EE4EB /* Frameworks */ = {
@@ -125,7 +165,6 @@
 				2F47C328C94CA61DED8CB438 /* Pods-GenerambaTemplatesTests.debug.xcconfig */,
 				35CCD7B76E25B754D966A59A /* Pods-GenerambaTemplatesTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -391,6 +430,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -446,6 +486,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -463,7 +504,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y827F3LXSQ;
-				INFOPLIST_FILE = GenerambaTemplates/Info.plist;
+				INFOPLIST_FILE = GenerambaTemplates/Supports/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -482,7 +523,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y827F3LXSQ;
-				INFOPLIST_FILE = GenerambaTemplates/Info.plist;
+				INFOPLIST_FILE = GenerambaTemplates/Supports/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
