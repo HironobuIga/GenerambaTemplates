@@ -1,0 +1,7 @@
+# Reactive Libraries
+$(SRCROOT)/Carthage/Build/iOS/RxRelay.framework
+$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework
+$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework
+
+# API
+$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework

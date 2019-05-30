@@ -40,6 +40,7 @@
 		1E5EF9BB229E5EA70076113B /* GenerambaTemplatesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerambaTemplatesTests.swift; sourceTree = "<group>"; };
 		1E5EF9BD229E5EA70076113B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1E5EF9DF229FCDB20076113B /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
+		1E5EF9E2229FD5A30076113B /* CarthageInputFiles.xcfilelist */ = {isa = PBXFileReference; lastKnownFileType = text.xcfilelist; path = CarthageInputFiles.xcfilelist; sourceTree = "<group>"; };
 		2F47C328C94CA61DED8CB438 /* Pods-GenerambaTemplatesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenerambaTemplatesTests.debug.xcconfig"; path = "Target Support Files/Pods-GenerambaTemplatesTests/Pods-GenerambaTemplatesTests.debug.xcconfig"; sourceTree = "<group>"; };
 		35CCD7B76E25B754D966A59A /* Pods-GenerambaTemplatesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenerambaTemplatesTests.release.xcconfig"; path = "Target Support Files/Pods-GenerambaTemplatesTests/Pods-GenerambaTemplatesTests.release.xcconfig"; sourceTree = "<group>"; };
 		50916B6721A78AC46B240640 /* Pods-GenerambaTemplates.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenerambaTemplates.debug.xcconfig"; path = "Target Support Files/Pods-GenerambaTemplates/Pods-GenerambaTemplates.debug.xcconfig"; sourceTree = "<group>"; };
@@ -115,6 +116,7 @@
 			children = (
 				1E5EF9B2229E5EA70076113B /* Info.plist */,
 				1E5EF9DF229FCDB20076113B /* R.generated.swift */,
+				1E5EF9E2229FD5A30076113B /* CarthageInputFiles.xcfilelist */,
 			);
 			path = Supports;
 			sourceTree = "<group>";
@@ -182,6 +184,7 @@
 				1E5EF9DE229FCCE50076113B /* RSwift */,
 				1E5EF99F229E5EA50076113B /* Sources */,
 				1E5EF9A0229E5EA50076113B /* Frameworks */,
+				1E5EF9E1229FD56A0076113B /* Carthage */,
 				1E5EF9A1229E5EA50076113B /* Resources */,
 				1ED0F57FF4F2DA02932532D0 /* [CP] Embed Pods Frameworks */,
 			);
@@ -291,6 +294,25 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/GenerambaTemplates/Supports/R.generated.swift\"\n";
+		};
+		1E5EF9E1229FD56A0076113B /* Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"$(SRCROOT)/GenerambaTemplates/Supports/CarthageInputFiles.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = Carthage;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
 		};
 		1ED0F57FF4F2DA02932532D0 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
