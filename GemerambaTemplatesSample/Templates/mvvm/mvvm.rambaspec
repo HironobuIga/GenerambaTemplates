@@ -1,0 +1,26 @@
+# Template information section
+name: "mvvm"
+summary: "Swift MVVM module template for GenerambaViper."
+author: "Hironobu Iga"
+version: "0.1.0"
+license: "MIT"
+
+# The declarations for code files
+code_files:
+
+# ViewModel
+- {name: ViewModel.swift, path: Code/viewmodel.swift.liquid}
+
+# Wireframe
+- {name: Wireframe.swift, path: Code/wireframe.swift.liquid}
+
+# View layer
+- {name: View/ViewController.swift, path: Code/View/viewcontroller.swift.liquid}
+- {name: View/ViewController.storyboard, path: Code/View/viewcontroller.storyboard.liquid}
+
+# The declarations for test files
+test_files:
+
+# ViewModel tests
+# 後々追記
+# - {name: ViewModelTests.swift, path: Tests/viewmodel_tests.swift.liquid}
