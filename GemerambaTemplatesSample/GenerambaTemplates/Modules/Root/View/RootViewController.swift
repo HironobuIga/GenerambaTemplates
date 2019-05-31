@@ -10,13 +10,14 @@ import UIKit
 
 import RxSwift
 import RxCocoa
+import UIComponent
 
 final class RootViewController: UIViewController {
 
     // MARK: - IBOutlet
     @IBOutlet private weak var numberLabel: UILabel!
-    @IBOutlet private weak var minusButton: UIButton!
-    @IBOutlet private weak var plusButton: UIButton!
+    @IBOutlet private weak var minusButton: RoundButton!
+    @IBOutlet private weak var plusButton: RoundButton!
     
     // MARK: - Property
     private var viewModel: RootViewModelType!
@@ -51,13 +52,7 @@ final class RootViewController: UIViewController {
 private extension RootViewController {
 
     func setupView() {
-        plusButton.layer.borderColor = plusButton.titleLabel?.textColor.cgColor
-        plusButton.layer.cornerRadius = 4.0
-        plusButton.layer.borderWidth = 1.0
-        
-        minusButton.layer.borderColor = minusButton.titleLabel?.textColor.cgColor
-        minusButton.layer.cornerRadius = 4.0
-        minusButton.layer.borderWidth = 1.0
+        numberLabel.text = "---"
     }
 
     func bindTo() {
