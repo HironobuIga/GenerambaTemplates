@@ -3,6 +3,10 @@
 Repository for Generamba Templates.
 There are templates for architectures below.
 I will add other architectures template in the future.
+
+### MVC
+Making templates of ViewController, ViewController.storyboard, Router.
+It's compatible with Viper Architecture.
  
 ### MVVM
 Making template of ViewController, ViewController.storyboard, ViewModel, Wireframe and their protocols.
