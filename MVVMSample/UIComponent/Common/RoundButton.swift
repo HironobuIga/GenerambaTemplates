@@ -28,4 +28,8 @@ public final class RoundButton: UIButton {
         set { layer.borderColor = newValue.cgColor }
         get { return UIColor(cgColor: layer.borderColor ?? UIColor.clear.cgColor) }
     }
+    
+    public override func prepareForInterfaceBuilder() {
+        super.prepareForInterfaceBuilder()
+    }
 }

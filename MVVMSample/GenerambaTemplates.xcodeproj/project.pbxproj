@@ -12,7 +12,6 @@
 		1E5EF9AE229E5EA70076113B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E5EF9AD229E5EA70076113B /* Assets.xcassets */; };
 		1E5EF9B1229E5EA70076113B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E5EF9AF229E5EA70076113B /* LaunchScreen.storyboard */; };
 		1E5EF9BC229E5EA70076113B /* GenerambaTemplatesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5EF9BB229E5EA70076113B /* GenerambaTemplatesTests.swift */; };
-		1E5EF9E0229FCDB20076113B /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5EF9DF229FCDB20076113B /* R.generated.swift */; };
 		1E5EF9EC229FEBD90076113B /* RootWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5EF9E7229FEBD70076113B /* RootWireframe.swift */; };
 		1E5EF9ED229FEBD90076113B /* RootViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5EF9E8229FEBD70076113B /* RootViewModel.swift */; };
 		1E5EF9EE229FEBD90076113B /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5EF9EA229FEBD70076113B /* RootViewController.swift */; };
@@ -32,7 +31,12 @@
 		1E5EFA3622A040810076113B /* Utility.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1E5EFA2022A040810076113B /* Utility.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1E5EFA3F22A0AD9A0076113B /* Int+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5EFA3E22A0AD9A0076113B /* Int+Extension.swift */; };
 		1E5EFA4422A0B1EC0076113B /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5EFA4322A0B1EB0076113B /* RoundButton.swift */; };
+		1E6F7C5822AD3E13006F284B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E6F7C5722AD3E13006F284B /* Assets.xcassets */; };
+		1E6F7C5F22AD4BE6006F284B /* DefaultAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6F7C5E22AD4BE6006F284B /* DefaultAsset.swift */; };
+		1E6F7C6122AD4CE5006F284B /* Storyboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6F7C6022AD4CE5006F284B /* Storyboards.swift */; };
+		1E6F7C6322AD4CEC006F284B /* DefaultAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6F7C6222AD4CEC006F284B /* DefaultAsset.swift */; };
 		39FC55CA8EAD0EF8A472B989 /* Pods_GenerambaTemplates.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 960D0E89EDDAE63D5EF90EF4 /* Pods_GenerambaTemplates.framework */; };
+		60D97FB54D6A3A30B664E607 /* Pods_GenerambaTemplates_UIComponent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E30634E77F1037309C3CA540 /* Pods_GenerambaTemplates_UIComponent.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -111,7 +115,6 @@
 		1E5EF9B7229E5EA70076113B /* GenerambaTemplatesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GenerambaTemplatesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E5EF9BB229E5EA70076113B /* GenerambaTemplatesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerambaTemplatesTests.swift; sourceTree = "<group>"; };
 		1E5EF9BD229E5EA70076113B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1E5EF9DF229FCDB20076113B /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
 		1E5EF9E2229FD5A30076113B /* CarthageInputFiles.xcfilelist */ = {isa = PBXFileReference; lastKnownFileType = text.xcfilelist; path = CarthageInputFiles.xcfilelist; sourceTree = "<group>"; };
 		1E5EF9E3229FD8510076113B /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = SOURCE_ROOT; };
 		1E5EF9E5229FD85F0076113B /* Rambafile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Rambafile; sourceTree = SOURCE_ROOT; };
@@ -135,12 +138,20 @@
 		1E5EFA3122A040810076113B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1E5EFA3E22A0AD9A0076113B /* Int+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Extension.swift"; sourceTree = "<group>"; };
 		1E5EFA4322A0B1EB0076113B /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		1E6F7C5722AD3E13006F284B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E6F7C5922AD44ED006F284B /* swiftgen.yml */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = text; path = swiftgen.yml; sourceTree = "<group>"; tabWidth = 2; };
+		1E6F7C5E22AD4BE6006F284B /* DefaultAsset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultAsset.swift; sourceTree = "<group>"; };
+		1E6F7C6022AD4CE5006F284B /* Storyboards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storyboards.swift; sourceTree = "<group>"; };
+		1E6F7C6222AD4CEC006F284B /* DefaultAsset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultAsset.swift; sourceTree = "<group>"; };
 		2F47C328C94CA61DED8CB438 /* Pods-GenerambaTemplatesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenerambaTemplatesTests.debug.xcconfig"; path = "Target Support Files/Pods-GenerambaTemplatesTests/Pods-GenerambaTemplatesTests.debug.xcconfig"; sourceTree = "<group>"; };
 		35CCD7B76E25B754D966A59A /* Pods-GenerambaTemplatesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenerambaTemplatesTests.release.xcconfig"; path = "Target Support Files/Pods-GenerambaTemplatesTests/Pods-GenerambaTemplatesTests.release.xcconfig"; sourceTree = "<group>"; };
 		50916B6721A78AC46B240640 /* Pods-GenerambaTemplates.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenerambaTemplates.debug.xcconfig"; path = "Target Support Files/Pods-GenerambaTemplates/Pods-GenerambaTemplates.debug.xcconfig"; sourceTree = "<group>"; };
 		8D0274EBF0AFD485E79D20BA /* Pods-GenerambaTemplates.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenerambaTemplates.release.xcconfig"; path = "Target Support Files/Pods-GenerambaTemplates/Pods-GenerambaTemplates.release.xcconfig"; sourceTree = "<group>"; };
 		960D0E89EDDAE63D5EF90EF4 /* Pods_GenerambaTemplates.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GenerambaTemplates.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C94880AD5F3AEA4B543AFD1 /* Pods_GenerambaTemplatesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GenerambaTemplatesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8E8626F8AA0073BE5B16998 /* Pods-GenerambaTemplates-UIComponent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenerambaTemplates-UIComponent.debug.xcconfig"; path = "Target Support Files/Pods-GenerambaTemplates-UIComponent/Pods-GenerambaTemplates-UIComponent.debug.xcconfig"; sourceTree = "<group>"; };
+		DD4E182782B42DDF04D8EA90 /* Pods-GenerambaTemplates-UIComponent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenerambaTemplates-UIComponent.release.xcconfig"; path = "Target Support Files/Pods-GenerambaTemplates-UIComponent/Pods-GenerambaTemplates-UIComponent.release.xcconfig"; sourceTree = "<group>"; };
+		E30634E77F1037309C3CA540 /* Pods_GenerambaTemplates_UIComponent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GenerambaTemplates_UIComponent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +181,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60D97FB54D6A3A30B664E607 /* Pods_GenerambaTemplates_UIComponent.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,6 +214,7 @@
 		1E5EF99A229E5EA40076113B = {
 			isa = PBXGroup;
 			children = (
+				1E6F7C5922AD44ED006F284B /* swiftgen.yml */,
 				1E5EF9A5229E5EA50076113B /* GenerambaTemplates */,
 				1E5EF9BA229E5EA70076113B /* GenerambaTemplatesTests */,
 				1E5EF9FE22A03F7F0076113B /* UIComponent */,
@@ -254,7 +267,6 @@
 			isa = PBXGroup;
 			children = (
 				1E5EF9B2229E5EA70076113B /* Info.plist */,
-				1E5EF9DF229FCDB20076113B /* R.generated.swift */,
 				1E5EF9E2229FD5A30076113B /* CarthageInputFiles.xcfilelist */,
 			);
 			path = Supports;
@@ -263,6 +275,7 @@
 		1E5EF9D9229FCC430076113B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				1E6F7C5C22AD4947006F284B /* Generated */,
 				1E5EF9AD229E5EA70076113B /* Assets.xcassets */,
 				1E5EF9AF229E5EA70076113B /* LaunchScreen.storyboard */,
 			);
@@ -314,9 +327,11 @@
 		1E5EF9FE22A03F7F0076113B /* UIComponent */ = {
 			isa = PBXGroup;
 			children = (
+				1E6F7C5D22AD4B55006F284B /* Generated */,
 				1E5EF9FF22A03F7F0076113B /* UIComponent.h */,
 				1E5EFA0022A03F7F0076113B /* Info.plist */,
 				1E5EFA4222A0B1D30076113B /* Common */,
+				1E6F7C5722AD3E13006F284B /* Assets.xcassets */,
 			);
 			path = UIComponent;
 			sourceTree = "<group>";
@@ -347,6 +362,23 @@
 			path = Common;
 			sourceTree = "<group>";
 		};
+		1E6F7C5C22AD4947006F284B /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				1E6F7C6222AD4CEC006F284B /* DefaultAsset.swift */,
+				1E6F7C6022AD4CE5006F284B /* Storyboards.swift */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		1E6F7C5D22AD4B55006F284B /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				1E6F7C5E22AD4BE6006F284B /* DefaultAsset.swift */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
 		A7A3DA8EC2583EC8F96EE4EB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -356,6 +388,7 @@
 				1E5EF9F1229FEC4B0076113B /* RxSwift.framework */,
 				960D0E89EDDAE63D5EF90EF4 /* Pods_GenerambaTemplates.framework */,
 				9C94880AD5F3AEA4B543AFD1 /* Pods_GenerambaTemplatesTests.framework */,
+				E30634E77F1037309C3CA540 /* Pods_GenerambaTemplates_UIComponent.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -367,6 +400,8 @@
 				8D0274EBF0AFD485E79D20BA /* Pods-GenerambaTemplates.release.xcconfig */,
 				2F47C328C94CA61DED8CB438 /* Pods-GenerambaTemplatesTests.debug.xcconfig */,
 				35CCD7B76E25B754D966A59A /* Pods-GenerambaTemplatesTests.release.xcconfig */,
+				B8E8626F8AA0073BE5B16998 /* Pods-GenerambaTemplates-UIComponent.debug.xcconfig */,
+				DD4E182782B42DDF04D8EA90 /* Pods-GenerambaTemplates-UIComponent.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -398,12 +433,11 @@
 			buildConfigurationList = 1E5EF9C0229E5EA70076113B /* Build configuration list for PBXNativeTarget "GenerambaTemplates" */;
 			buildPhases = (
 				3BCA7C47F43B6D7126D18DFD /* [CP] Check Pods Manifest.lock */,
-				1E5EF9DE229FCCE50076113B /* RSwift */,
+				1E6F7C5B22AD4715006F284B /* SwiftGen */,
 				1E5EF99F229E5EA50076113B /* Sources */,
 				1E5EF9A0229E5EA50076113B /* Frameworks */,
 				1E5EF9E1229FD56A0076113B /* Carthage */,
 				1E5EF9A1229E5EA50076113B /* Resources */,
-				1ED0F57FF4F2DA02932532D0 /* [CP] Embed Pods Frameworks */,
 				1E5EFA1722A03F7F0076113B /* Embed Frameworks */,
 			);
 			buildRules = (
@@ -440,6 +474,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1E5EFA1422A03F7F0076113B /* Build configuration list for PBXNativeTarget "UIComponent" */;
 			buildPhases = (
+				F2CB64E180DF5BA606A46668 /* [CP] Check Pods Manifest.lock */,
 				1E5EF9F822A03F7F0076113B /* Headers */,
 				1E5EF9F922A03F7F0076113B /* Sources */,
 				1E5EF9FA22A03F7F0076113B /* Frameworks */,
@@ -589,6 +624,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E6F7C5822AD3E13006F284B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -616,26 +652,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1E5EF9DE229FCCE50076113B /* RSwift */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"$TEMP_DIR/rswift-lastrun",
-			);
-			name = RSwift;
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				$SRCROOT/GenerambaTemplates/Supports/R.generated.swift,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/GenerambaTemplates/Supports/R.generated.swift\"\n";
-		};
 		1E5EF9E1229FD56A0076113B /* Carthage */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -655,22 +671,23 @@
 			shellPath = /bin/sh;
 			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
 		};
-		1ED0F57FF4F2DA02932532D0 /* [CP] Embed Pods Frameworks */ = {
+		1E6F7C5B22AD4715006F284B /* SwiftGen */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GenerambaTemplates/Pods-GenerambaTemplates-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			inputPaths = (
+			);
+			name = SwiftGen;
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GenerambaTemplates/Pods-GenerambaTemplates-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GenerambaTemplates/Pods-GenerambaTemplates-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
+			shellScript = "${PODS_ROOT}/SwiftGen/bin/swiftgen\n";
 		};
 		3BCA7C47F43B6D7126D18DFD /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -716,6 +733,28 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		F2CB64E180DF5BA606A46668 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GenerambaTemplates-UIComponent-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -725,10 +764,11 @@
 			files = (
 				1E5EF9ED229FEBD90076113B /* RootViewModel.swift in Sources */,
 				1E5EF9EC229FEBD90076113B /* RootWireframe.swift in Sources */,
+				1E6F7C6322AD4CEC006F284B /* DefaultAsset.swift in Sources */,
 				1E5EF9EE229FEBD90076113B /* RootViewController.swift in Sources */,
 				1E5EFA3F22A0AD9A0076113B /* Int+Extension.swift in Sources */,
 				1E5EF9A7229E5EA50076113B /* AppDelegate.swift in Sources */,
-				1E5EF9E0229FCDB20076113B /* R.generated.swift in Sources */,
+				1E6F7C6122AD4CE5006F284B /* Storyboards.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -744,6 +784,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E6F7C5F22AD4BE6006F284B /* DefaultAsset.swift in Sources */,
 				1E5EFA4422A0B1EC0076113B /* RoundButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1034,6 +1075,7 @@
 		};
 		1E5EFA1522A03F7F0076113B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8E8626F8AA0073BE5B16998 /* Pods-GenerambaTemplates-UIComponent.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -1064,6 +1106,7 @@
 		};
 		1E5EFA1622A03F7F0076113B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD4E182782B42DDF04D8EA90 /* Pods-GenerambaTemplates-UIComponent.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";

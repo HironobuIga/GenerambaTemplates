@@ -25,7 +25,7 @@ final class RootViewController: UIViewController {
 
     // MARK: - Life cycle
     static func insntantiate(initialNumber: Int = 0, viewModel: RootViewModelType? = nil) -> RootViewController {
-        let viewController = R.storyboard.rootViewController.instantiateInitialViewController()!
+        let viewController =  StoryboardScene.RootViewController.initialScene.instantiate()
         let wireframe = DefaultRootWireframe(on: viewController)
         
         let dependency = RootViewModel.Dependency(
