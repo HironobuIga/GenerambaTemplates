@@ -16,12 +16,14 @@ struct R: Rswift.Validatable {
     try intern.validate()
   }
   
-  /// This `R.storyboard` struct is generated, and contains static references to 2 storyboards.
+  /// This `R.storyboard` struct is generated, and contains static references to 3 storyboards.
   struct storyboard {
     /// Storyboard `LaunchScreen`.
     static let launchScreen = _R.storyboard.launchScreen()
     /// Storyboard `RootViewController`.
     static let rootViewController = _R.storyboard.rootViewController()
+    /// Storyboard `SampleViewController`.
+    static let sampleViewController = _R.storyboard.sampleViewController()
     
     /// `UIStoryboard(name: "LaunchScreen", bundle: ...)`
     static func launchScreen(_: Void = ()) -> UIKit.UIStoryboard {
@@ -31,6 +33,11 @@ struct R: Rswift.Validatable {
     /// `UIStoryboard(name: "RootViewController", bundle: ...)`
     static func rootViewController(_: Void = ()) -> UIKit.UIStoryboard {
       return UIKit.UIStoryboard(resource: R.storyboard.rootViewController)
+    }
+    
+    /// `UIStoryboard(name: "SampleViewController", bundle: ...)`
+    static func sampleViewController(_: Void = ()) -> UIKit.UIStoryboard {
+      return UIKit.UIStoryboard(resource: R.storyboard.sampleViewController)
     }
     
     fileprivate init() {}
@@ -58,6 +65,7 @@ struct _R: Rswift.Validatable {
     static func validate() throws {
       try launchScreen.validate()
       try rootViewController.validate()
+      try sampleViewController.validate()
     }
     
     struct launchScreen: Rswift.StoryboardResourceWithInitialControllerType, Rswift.Validatable {
@@ -79,6 +87,20 @@ struct _R: Rswift.Validatable {
       
       let bundle = R.hostingBundle
       let name = "RootViewController"
+      
+      static func validate() throws {
+        if #available(iOS 11.0, *) {
+        }
+      }
+      
+      fileprivate init() {}
+    }
+    
+    struct sampleViewController: Rswift.StoryboardResourceWithInitialControllerType, Rswift.Validatable {
+      typealias InitialController = SampleViewController
+      
+      let bundle = R.hostingBundle
+      let name = "SampleViewController"
       
       static func validate() throws {
         if #available(iOS 11.0, *) {

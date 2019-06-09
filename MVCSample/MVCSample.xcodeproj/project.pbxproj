@@ -42,6 +42,11 @@
 		1EEF7C6822ACD4E7008A9DCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1EEF7C7522ACDA8F008A9DCE /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
 		1EEF7C7822ACDB19008A9DCE /* RootRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootRouter.swift; sourceTree = "<group>"; };
+		1EEF7C7A22ACDEDA008A9DCE /* Rambafile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Rambafile; sourceTree = SOURCE_ROOT; };
+		1EEF7C7E22ACDF30008A9DCE /* mvc.rambaspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = mvc.rambaspec; sourceTree = "<group>"; };
+		1EEF7C8222ACDF30008A9DCE /* router.swift.liquid */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = router.swift.liquid; sourceTree = "<group>"; };
+		1EEF7C8422ACDF30008A9DCE /* viewcontroller.storyboard.liquid */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = viewcontroller.storyboard.liquid; sourceTree = "<group>"; };
+		1EEF7C8522ACDF30008A9DCE /* viewcontroller.swift.liquid */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = viewcontroller.swift.liquid; sourceTree = "<group>"; };
 		3F0AABF0D6E15291F97B028A /* Pods-MVCSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVCSample.debug.xcconfig"; path = "Target Support Files/Pods-MVCSample/Pods-MVCSample.debug.xcconfig"; sourceTree = "<group>"; };
 		6B81A9C5E91762BC9F5F67D0 /* Pods-MVCSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVCSampleTests.debug.xcconfig"; path = "Target Support Files/Pods-MVCSampleTests/Pods-MVCSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9605C14142EC7DA779B59033 /* Pods-MVCSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVCSample.release.xcconfig"; path = "Target Support Files/Pods-MVCSample/Pods-MVCSample.release.xcconfig"; sourceTree = "<group>"; };
@@ -75,6 +80,7 @@
 			children = (
 				1EEF7C5022ACD4E3008A9DCE /* MVCSample */,
 				1EEF7C6522ACD4E7008A9DCE /* MVCSampleTests */,
+				1EEF7C7C22ACDF30008A9DCE /* Templates */,
 				1EEF7C4F22ACD4E3008A9DCE /* Products */,
 				E8D68DF6ACD52D6A1334D660 /* Pods */,
 				5376893C11CC5ADF7F7654C0 /* Frameworks */,
@@ -93,6 +99,7 @@
 		1EEF7C5022ACD4E3008A9DCE /* MVCSample */ = {
 			isa = PBXGroup;
 			children = (
+				1EEF7C7A22ACDEDA008A9DCE /* Rambafile */,
 				1EEF7C5122ACD4E3008A9DCE /* AppDelegate.swift */,
 				1EFA699F22ACD766000A6924 /* Modules */,
 				1EEF7C7122ACD8DC008A9DCE /* Resources */,
@@ -136,6 +143,33 @@
 				1EEF7C5522ACD4E3008A9DCE /* RootViewController.storyboard */,
 			);
 			path = Root;
+			sourceTree = "<group>";
+		};
+		1EEF7C7C22ACDF30008A9DCE /* Templates */ = {
+			isa = PBXGroup;
+			children = (
+				1EEF7C7D22ACDF30008A9DCE /* mvc */,
+			);
+			path = Templates;
+			sourceTree = "<group>";
+		};
+		1EEF7C7D22ACDF30008A9DCE /* mvc */ = {
+			isa = PBXGroup;
+			children = (
+				1EEF7C7E22ACDF30008A9DCE /* mvc.rambaspec */,
+				1EEF7C8122ACDF30008A9DCE /* Code */,
+			);
+			path = mvc;
+			sourceTree = "<group>";
+		};
+		1EEF7C8122ACDF30008A9DCE /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				1EEF7C8222ACDF30008A9DCE /* router.swift.liquid */,
+				1EEF7C8422ACDF30008A9DCE /* viewcontroller.storyboard.liquid */,
+				1EEF7C8522ACDF30008A9DCE /* viewcontroller.swift.liquid */,
+			);
+			path = Code;
 			sourceTree = "<group>";
 		};
 		1EFA699F22ACD766000A6924 /* Modules */ = {
