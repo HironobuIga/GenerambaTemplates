@@ -1,0 +1,18 @@
+source 'https://cdn.jsdelivr.net/cocoa/'
+
+# Uncomment the next line to define a global platform for your project
+platform :ios, '11.0'
+
+target 'MVCSample' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  pod 'R.swift', '5.0.3'
+  # Pods for MVCSample
+
+  target 'MVCSampleTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
