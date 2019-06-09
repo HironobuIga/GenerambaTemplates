@@ -19,7 +19,3 @@ code_files:
 
 # The declarations for test files
 # test_files:
-
-# ViewModel tests
-# 後々追記
-# - {name: ViewModelTests.swift, path: Tests/viewmodel_tests.swift.liquid}
