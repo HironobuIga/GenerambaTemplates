@@ -1,5 +1,5 @@
 # Template information section
-name: "mvc"
+name: "mvc_code_only"
 summary: "Swift mvc module template for MVC Architecture."
 author: "Hironobu Iga"
 version: "0.1.0"
@@ -14,12 +14,5 @@ code_files:
 # ViewController
 - {name: ViewController.swift, path: Code/viewcontroller.swift.liquid}
 
-# Storyboard
-- {name: ViewController.storyboard, path: Code/viewcontroller.storyboard.liquid}
-
 # The declarations for test files
 # test_files:
-
-# ViewModel tests
-# 後々追記
-# - {name: ViewModelTests.swift, path: Tests/viewmodel_tests.swift.liquid}

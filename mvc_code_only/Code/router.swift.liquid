@@ -17,7 +17,7 @@ static func makeModule() -> UIViewController
 final class {{ module_info.name }}Router: {{ module_info.name }}RouterProtocol {
 
     static func makeModule() -> UIViewController {
-        let viewController = R.storyboard.{{ module_info.name }}ViewController.instantiateInitialViewController()!
+        let viewController = {{ module_info.name }}ViewController()
         viewController.router = {{ module_info.name }}Router()
 
         return viewController
