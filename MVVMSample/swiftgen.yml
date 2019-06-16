@@ -4,9 +4,12 @@ xcassets:
   output: GenerambaTemplates/Resources/Generated/DefaultAsset.swift
 
 xcassets:
-  paths: UIComponent/Assets.xcassets
-  templateName: swift4
-  output: UIComponent/Generated/DefaultAsset.swift
+  inputs: UIComponent/Assets.xcassets
+  outputs:
+    templateName: swift4
+    output: UIComponent/Generated/DefaultAsset.swift
+    params: # ここで
+      publicAccess: true
 
 ib:
   paths: GenerambaTemplates/Modules/

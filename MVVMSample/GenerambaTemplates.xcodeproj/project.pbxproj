@@ -32,9 +32,9 @@
 		1E5EFA3F22A0AD9A0076113B /* Int+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5EFA3E22A0AD9A0076113B /* Int+Extension.swift */; };
 		1E5EFA4422A0B1EC0076113B /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5EFA4322A0B1EB0076113B /* RoundButton.swift */; };
 		1E6F7C5822AD3E13006F284B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E6F7C5722AD3E13006F284B /* Assets.xcassets */; };
-		1E6F7C5F22AD4BE6006F284B /* DefaultAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6F7C5E22AD4BE6006F284B /* DefaultAsset.swift */; };
 		1E6F7C6122AD4CE5006F284B /* Storyboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6F7C6022AD4CE5006F284B /* Storyboards.swift */; };
 		1E6F7C6322AD4CEC006F284B /* DefaultAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6F7C6222AD4CEC006F284B /* DefaultAsset.swift */; };
+		1E944D4E22B64FA90091E939 /* DefaultAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E944D4D22B64FA90091E939 /* DefaultAsset.swift */; };
 		39FC55CA8EAD0EF8A472B989 /* Pods_GenerambaTemplates.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 960D0E89EDDAE63D5EF90EF4 /* Pods_GenerambaTemplates.framework */; };
 		60D97FB54D6A3A30B664E607 /* Pods_GenerambaTemplates_UIComponent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E30634E77F1037309C3CA540 /* Pods_GenerambaTemplates_UIComponent.framework */; };
 /* End PBXBuildFile section */
@@ -140,9 +140,9 @@
 		1E5EFA4322A0B1EB0076113B /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		1E6F7C5722AD3E13006F284B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E6F7C5922AD44ED006F284B /* swiftgen.yml */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 2; lastKnownFileType = text; path = swiftgen.yml; sourceTree = "<group>"; tabWidth = 2; };
-		1E6F7C5E22AD4BE6006F284B /* DefaultAsset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultAsset.swift; sourceTree = "<group>"; };
 		1E6F7C6022AD4CE5006F284B /* Storyboards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storyboards.swift; sourceTree = "<group>"; };
 		1E6F7C6222AD4CEC006F284B /* DefaultAsset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultAsset.swift; sourceTree = "<group>"; };
+		1E944D4D22B64FA90091E939 /* DefaultAsset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultAsset.swift; sourceTree = "<group>"; };
 		2F47C328C94CA61DED8CB438 /* Pods-GenerambaTemplatesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenerambaTemplatesTests.debug.xcconfig"; path = "Target Support Files/Pods-GenerambaTemplatesTests/Pods-GenerambaTemplatesTests.debug.xcconfig"; sourceTree = "<group>"; };
 		35CCD7B76E25B754D966A59A /* Pods-GenerambaTemplatesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenerambaTemplatesTests.release.xcconfig"; path = "Target Support Files/Pods-GenerambaTemplatesTests/Pods-GenerambaTemplatesTests.release.xcconfig"; sourceTree = "<group>"; };
 		50916B6721A78AC46B240640 /* Pods-GenerambaTemplates.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GenerambaTemplates.debug.xcconfig"; path = "Target Support Files/Pods-GenerambaTemplates/Pods-GenerambaTemplates.debug.xcconfig"; sourceTree = "<group>"; };
@@ -374,7 +374,7 @@
 		1E6F7C5D22AD4B55006F284B /* Generated */ = {
 			isa = PBXGroup;
 			children = (
-				1E6F7C5E22AD4BE6006F284B /* DefaultAsset.swift */,
+				1E944D4D22B64FA90091E939 /* DefaultAsset.swift */,
 			);
 			path = Generated;
 			sourceTree = "<group>";
@@ -784,7 +784,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E6F7C5F22AD4BE6006F284B /* DefaultAsset.swift in Sources */,
+				1E944D4E22B64FA90091E939 /* DefaultAsset.swift in Sources */,
 				1E5EFA4422A0B1EC0076113B /* RoundButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
